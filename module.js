@@ -20,16 +20,7 @@ const functionC = () => {
     console.log("Function C has been called!")
 }
 
-const greet = (person) =>{
-    console.log("Hello", person)
-}
-
 const blender = (string) =>{
     return string.split('')
 }
 
-
-const square = (num, message) => {
-    console.log("Message", message)
-    return num + num;
-}
